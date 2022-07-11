@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5A19684280C94F400BC652C /* SpaceXRocketsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A19683280C94F400BC652C /* SpaceXRocketsApp.swift */; };
+		A5B6224D280600FD002E5641 /* ProjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B6224C280600FD002E5641 /* ProjectCell.swift */; };
+		A5B6225028070E35002E5641 /* ProjectLaunchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B6224F28070E35002E5641 /* ProjectLaunchesView.swift */; };
+		A5B62285280AAD8E002E5641 /* LabGrotesque-BlackItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = A5B62265280AAD8E002E5641 /* LabGrotesque-BlackItalic.woff */; };
+		A5B62286280AAD8E002E5641 /* LabGrotesque-Medium.woff in Resources */ = {isa = PBXBuildFile; fileRef = A5B62266280AAD8E002E5641 /* LabGrotesque-Medium.woff */; };
+		A5B62287280AAD8E002E5641 /* LabGrotesque-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5B62267280AAD8E002E5641 /* LabGrotesque-BoldItalic.ttf */; };
+		A5B62288280AAD8E002E5641 /* LabGrotesque-LightItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = A5B62268280AAD8E002E5641 /* LabGrotesque-LightItalic.eot */; };
+		A5B62289280AAD8E002E5641 /* LabGrotesque-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5B62269280AAD8E002E5641 /* LabGrotesque-Light.ttf */; };
+		A5B6228A280AAD8E002E5641 /* LabGrotesque-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5B6226A280AAD8E002E5641 /* LabGrotesque-Italic.ttf */; };
+		A5B6228B280AAD8E002E5641 /* LabGrotesque-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5B6226B280AAD8E002E5641 /* LabGrotesque-BlackItalic.ttf */; };
+		A5B6228C280AAD8E002E5641 /* LabGrotesque-BoldItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = A5B6226C280AAD8E002E5641 /* LabGrotesque-BoldItalic.eot */; };
+		A5B6228D280AAD8E002E5641 /* LabGrotesque-BoldItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = A5B6226D280AAD8E002E5641 /* LabGrotesque-BoldItalic.woff */; };
+		A5B6228E280AAD8E002E5641 /* LabGrotesque-Light.eot in Resources */ = {isa = PBXBuildFile; fileRef = A5B6226E280AAD8E002E5641 /* LabGrotesque-Light.eot */; };
+		A5B6228F280AAD8E002E5641 /* LabGrotesque-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5B6226F280AAD8E002E5641 /* LabGrotesque-LightItalic.ttf */; };
+		A5B62290280AAD8E002E5641 /* LabGrotesque-Black.woff in Resources */ = {isa = PBXBuildFile; fileRef = A5B62270280AAD8E002E5641 /* LabGrotesque-Black.woff */; };
+		A5B62291280AAD8E002E5641 /* LabGrotesque-BlackItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = A5B62271280AAD8E002E5641 /* LabGrotesque-BlackItalic.eot */; };
+		A5B62292280AAD8E002E5641 /* LabGrotesque-Italic.eot in Resources */ = {isa = PBXBuildFile; fileRef = A5B62272280AAD8E002E5641 /* LabGrotesque-Italic.eot */; };
+		A5B62293280AAD8E002E5641 /* LabGrotesque-MediumItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = A5B62273280AAD8E002E5641 /* LabGrotesque-MediumItalic.woff */; };
+		A5B62294280AAD8E002E5641 /* stylesheet.css in Resources */ = {isa = PBXBuildFile; fileRef = A5B62274280AAD8E002E5641 /* stylesheet.css */; };
+		A5B62295280AAD8E002E5641 /* LabGrotesque-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5B62275280AAD8E002E5641 /* LabGrotesque-Regular.ttf */; };
+		A5B62296280AAD8E002E5641 /* LabGrotesque-LightItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = A5B62276280AAD8E002E5641 /* LabGrotesque-LightItalic.woff */; };
+		A5B62297280AAD8E002E5641 /* LabGrotesque-Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = A5B62277280AAD8E002E5641 /* LabGrotesque-Bold.woff */; };
+		A5B62298280AAD8E002E5641 /* LabGrotesque-Medium.eot in Resources */ = {isa = PBXBuildFile; fileRef = A5B62278280AAD8E002E5641 /* LabGrotesque-Medium.eot */; };
+		A5B62299280AAD8E002E5641 /* LabGrotesque-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5B62279280AAD8E002E5641 /* LabGrotesque-MediumItalic.ttf */; };
+		A5B6229A280AAD8E002E5641 /* LabGrotesque-Black.eot in Resources */ = {isa = PBXBuildFile; fileRef = A5B6227A280AAD8E002E5641 /* LabGrotesque-Black.eot */; };
+		A5B6229B280AAD8E002E5641 /* LabGrotesque-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5B6227B280AAD8E002E5641 /* LabGrotesque-Bold.ttf */; };
+		A5B6229C280AAD8E002E5641 /* demo.html in Resources */ = {isa = PBXBuildFile; fileRef = A5B6227C280AAD8E002E5641 /* demo.html */; };
+		A5B6229D280AAD8E002E5641 /* LabGrotesque-Light.woff in Resources */ = {isa = PBXBuildFile; fileRef = A5B6227D280AAD8E002E5641 /* LabGrotesque-Light.woff */; };
+		A5B6229E280AAD8E002E5641 /* LabGrotesque-Regular.eot in Resources */ = {isa = PBXBuildFile; fileRef = A5B6227E280AAD8E002E5641 /* LabGrotesque-Regular.eot */; };
+		A5B6229F280AAD8E002E5641 /* LabGrotesque-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5B6227F280AAD8E002E5641 /* LabGrotesque-Medium.ttf */; };
+		A5B622A0280AAD8E002E5641 /* LabGrotesque-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5B62280280AAD8E002E5641 /* LabGrotesque-Black.ttf */; };
+		A5B622A1280AAD8E002E5641 /* LabGrotesque-Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = A5B62281280AAD8E002E5641 /* LabGrotesque-Italic.woff */; };
+		A5B622A2280AAD8E002E5641 /* LabGrotesque-Bold.eot in Resources */ = {isa = PBXBuildFile; fileRef = A5B62282280AAD8E002E5641 /* LabGrotesque-Bold.eot */; };
+		A5B622A3280AAD8E002E5641 /* LabGrotesque-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = A5B62283280AAD8E002E5641 /* LabGrotesque-Regular.woff */; };
+		A5B622A4280AAD8E002E5641 /* LabGrotesque-MediumItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = A5B62284280AAD8E002E5641 /* LabGrotesque-MediumItalic.eot */; };
+		A5BC33842801F147003517FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5BC33832801F147003517FB /* Assets.xcassets */; };
+		A5BC33872801F147003517FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5BC33862801F147003517FB /* Preview Assets.xcassets */; };
+		A5BC33902801F17D003517FB /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BC338F2801F17D003517FB /* Service.swift */; };
+		A5BC33922801F198003517FB /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BC33912801F198003517FB /* ServiceError.swift */; };
+		A5BC33952801F205003517FB /* LaunchesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BC33942801F204003517FB /* LaunchesModel.swift */; };
+		A5BC33972801F215003517FB /* LinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BC33962801F215003517FB /* LinkModel.swift */; };
+		A5BC33992801F226003517FB /* PatchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BC33982801F226003517FB /* PatchModel.swift */; };
+		A5BC339D2801F2A6003517FB /* LaunchesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BC339C2801F2A6003517FB /* LaunchesViewModel.swift */; };
+		A5BC339F2801F2B6003517FB /* LaunchesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BC339E2801F2B6003517FB /* LaunchesPresenter.swift */; };
+		A5BC33A42801F372003517FB /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A5BC33A32801F372003517FB /* Alamofire */; };
+		A5BC33A72801F386003517FB /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A5BC33A62801F386003517FB /* Kingfisher */; };
+		A5BC33A92801F3EF003517FB /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BC33A82801F3EF003517FB /* Endpoint.swift */; };
+		A5BC33AF280223C6003517FB /* RocketsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BC33AE280223C6003517FB /* RocketsModel.swift */; };
+		A5BC33B12802249F003517FB /* HeightModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BC33B02802249F003517FB /* HeightModel.swift */; };
+		A5BC33B3280224E9003517FB /* MassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BC33B2280224E9003517FB /* MassModel.swift */; };
+		A5BC33B72802255C003517FB /* FirstStageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BC33B62802255C003517FB /* FirstStageModel.swift */; };
+		A5BC33B928022583003517FB /* SecondStageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BC33B828022583003517FB /* SecondStageModel.swift */; };
+		A5BC33C528022878003517FB /* PayloadWeightsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BC33C428022878003517FB /* PayloadWeightsModel.swift */; };
+		A5BC33E82804BA20003517FB /* ProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BC33E72804BA20003517FB /* ProjectView.swift */; };
+		A5BC33EA2804BB86003517FB /* ProjectPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BC33E92804BB86003517FB /* ProjectPresenter.swift */; };
+		A5BC33EC2804BB99003517FB /* ProjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BC33EB2804BB99003517FB /* ProjectViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5A19683280C94F400BC652C /* SpaceXRocketsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceXRocketsApp.swift; sourceTree = "<group>"; };
+		A5B6224C280600FD002E5641 /* ProjectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCell.swift; sourceTree = "<group>"; };
+		A5B6224F28070E35002E5641 /* ProjectLaunchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectLaunchesView.swift; sourceTree = "<group>"; };
+		A5B62265280AAD8E002E5641 /* LabGrotesque-BlackItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-BlackItalic.woff"; sourceTree = "<group>"; };
+		A5B62266280AAD8E002E5641 /* LabGrotesque-Medium.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Medium.woff"; sourceTree = "<group>"; };
+		A5B62267280AAD8E002E5641 /* LabGrotesque-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A5B62268280AAD8E002E5641 /* LabGrotesque-LightItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-LightItalic.eot"; sourceTree = "<group>"; };
+		A5B62269280AAD8E002E5641 /* LabGrotesque-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Light.ttf"; sourceTree = "<group>"; };
+		A5B6226A280AAD8E002E5641 /* LabGrotesque-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Italic.ttf"; sourceTree = "<group>"; };
+		A5B6226B280AAD8E002E5641 /* LabGrotesque-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-BlackItalic.ttf"; sourceTree = "<group>"; };
+		A5B6226C280AAD8E002E5641 /* LabGrotesque-BoldItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-BoldItalic.eot"; sourceTree = "<group>"; };
+		A5B6226D280AAD8E002E5641 /* LabGrotesque-BoldItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-BoldItalic.woff"; sourceTree = "<group>"; };
+		A5B6226E280AAD8E002E5641 /* LabGrotesque-Light.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Light.eot"; sourceTree = "<group>"; };
+		A5B6226F280AAD8E002E5641 /* LabGrotesque-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-LightItalic.ttf"; sourceTree = "<group>"; };
+		A5B62270280AAD8E002E5641 /* LabGrotesque-Black.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Black.woff"; sourceTree = "<group>"; };
+		A5B62271280AAD8E002E5641 /* LabGrotesque-BlackItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-BlackItalic.eot"; sourceTree = "<group>"; };
+		A5B62272280AAD8E002E5641 /* LabGrotesque-Italic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Italic.eot"; sourceTree = "<group>"; };
+		A5B62273280AAD8E002E5641 /* LabGrotesque-MediumItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-MediumItalic.woff"; sourceTree = "<group>"; };
+		A5B62274280AAD8E002E5641 /* stylesheet.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = stylesheet.css; sourceTree = "<group>"; };
+		A5B62275280AAD8E002E5641 /* LabGrotesque-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Regular.ttf"; sourceTree = "<group>"; };
+		A5B62276280AAD8E002E5641 /* LabGrotesque-LightItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-LightItalic.woff"; sourceTree = "<group>"; };
+		A5B62277280AAD8E002E5641 /* LabGrotesque-Bold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Bold.woff"; sourceTree = "<group>"; };
+		A5B62278280AAD8E002E5641 /* LabGrotesque-Medium.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Medium.eot"; sourceTree = "<group>"; };
+		A5B62279280AAD8E002E5641 /* LabGrotesque-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-MediumItalic.ttf"; sourceTree = "<group>"; };
+		A5B6227A280AAD8E002E5641 /* LabGrotesque-Black.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Black.eot"; sourceTree = "<group>"; };
+		A5B6227B280AAD8E002E5641 /* LabGrotesque-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Bold.ttf"; sourceTree = "<group>"; };
+		A5B6227C280AAD8E002E5641 /* demo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo.html; sourceTree = "<group>"; };
+		A5B6227D280AAD8E002E5641 /* LabGrotesque-Light.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Light.woff"; sourceTree = "<group>"; };
+		A5B6227E280AAD8E002E5641 /* LabGrotesque-Regular.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Regular.eot"; sourceTree = "<group>"; };
+		A5B6227F280AAD8E002E5641 /* LabGrotesque-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Medium.ttf"; sourceTree = "<group>"; };
+		A5B62280280AAD8E002E5641 /* LabGrotesque-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Black.ttf"; sourceTree = "<group>"; };
+		A5B62281280AAD8E002E5641 /* LabGrotesque-Italic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Italic.woff"; sourceTree = "<group>"; };
+		A5B62282280AAD8E002E5641 /* LabGrotesque-Bold.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Bold.eot"; sourceTree = "<group>"; };
+		A5B62283280AAD8E002E5641 /* LabGrotesque-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Regular.woff"; sourceTree = "<group>"; };
+		A5B62284280AAD8E002E5641 /* LabGrotesque-MediumItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-MediumItalic.eot"; sourceTree = "<group>"; };
+		A5BC337C2801F145003517FB /* SpaceXRockets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceXRockets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BC33832801F147003517FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5BC33862801F147003517FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5BC338F2801F17D003517FB /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		A5BC33912801F198003517FB /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
+		A5BC33942801F204003517FB /* LaunchesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesModel.swift; sourceTree = "<group>"; };
+		A5BC33962801F215003517FB /* LinkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkModel.swift; sourceTree = "<group>"; };
+		A5BC33982801F226003517FB /* PatchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchModel.swift; sourceTree = "<group>"; };
+		A5BC339C2801F2A6003517FB /* LaunchesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesViewModel.swift; sourceTree = "<group>"; };
+		A5BC339E2801F2B6003517FB /* LaunchesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesPresenter.swift; sourceTree = "<group>"; };
+		A5BC33A82801F3EF003517FB /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		A5BC33AE280223C6003517FB /* RocketsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketsModel.swift; sourceTree = "<group>"; };
+		A5BC33B02802249F003517FB /* HeightModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightModel.swift; sourceTree = "<group>"; };
+		A5BC33B2280224E9003517FB /* MassModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassModel.swift; sourceTree = "<group>"; };
+		A5BC33B62802255C003517FB /* FirstStageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstStageModel.swift; sourceTree = "<group>"; };
+		A5BC33B828022583003517FB /* SecondStageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondStageModel.swift; sourceTree = "<group>"; };
+		A5BC33C428022878003517FB /* PayloadWeightsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayloadWeightsModel.swift; sourceTree = "<group>"; };
+		A5BC33E72804BA20003517FB /* ProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectView.swift; sourceTree = "<group>"; };
+		A5BC33E92804BB86003517FB /* ProjectPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectPresenter.swift; sourceTree = "<group>"; };
+		A5BC33EB2804BB99003517FB /* ProjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5BC33792801F145003517FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BC33A72801F386003517FB /* Kingfisher in Frameworks */,
+				A5BC33A42801F372003517FB /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5B6224E28070E07002E5641 /* ProjectLaunches */ = {
+			isa = PBXGroup;
+			children = (
+				A5BC339C2801F2A6003517FB /* LaunchesViewModel.swift */,
+				A5BC339E2801F2B6003517FB /* LaunchesPresenter.swift */,
+				A5B6224F28070E35002E5641 /* ProjectLaunchesView.swift */,
+			);
+			path = ProjectLaunches;
+			sourceTree = "<group>";
+		};
+		A5B6225628070EB7002E5641 /* ProjectModels */ = {
+			isa = PBXGroup;
+			children = (
+				A5BC33AE280223C6003517FB /* RocketsModel.swift */,
+				A5BC33B2280224E9003517FB /* MassModel.swift */,
+				A5BC33B02802249F003517FB /* HeightModel.swift */,
+				A5BC33B62802255C003517FB /* FirstStageModel.swift */,
+				A5BC33B828022583003517FB /* SecondStageModel.swift */,
+				A5BC33C428022878003517FB /* PayloadWeightsModel.swift */,
+			);
+			path = ProjectModels;
+			sourceTree = "<group>";
+		};
+		A5B62263280AAD8E002E5641 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A5B62264280AAD8E002E5641 /* LabGrotesque */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A5B62264280AAD8E002E5641 /* LabGrotesque */ = {
+			isa = PBXGroup;
+			children = (
+				A5B62265280AAD8E002E5641 /* LabGrotesque-BlackItalic.woff */,
+				A5B62266280AAD8E002E5641 /* LabGrotesque-Medium.woff */,
+				A5B62267280AAD8E002E5641 /* LabGrotesque-BoldItalic.ttf */,
+				A5B62268280AAD8E002E5641 /* LabGrotesque-LightItalic.eot */,
+				A5B62269280AAD8E002E5641 /* LabGrotesque-Light.ttf */,
+				A5B6226A280AAD8E002E5641 /* LabGrotesque-Italic.ttf */,
+				A5B6226B280AAD8E002E5641 /* LabGrotesque-BlackItalic.ttf */,
+				A5B6226C280AAD8E002E5641 /* LabGrotesque-BoldItalic.eot */,
+				A5B6226D280AAD8E002E5641 /* LabGrotesque-BoldItalic.woff */,
+				A5B6226E280AAD8E002E5641 /* LabGrotesque-Light.eot */,
+				A5B6226F280AAD8E002E5641 /* LabGrotesque-LightItalic.ttf */,
+				A5B62270280AAD8E002E5641 /* LabGrotesque-Black.woff */,
+				A5B62271280AAD8E002E5641 /* LabGrotesque-BlackItalic.eot */,
+				A5B62272280AAD8E002E5641 /* LabGrotesque-Italic.eot */,
+				A5B62273280AAD8E002E5641 /* LabGrotesque-MediumItalic.woff */,
+				A5B62274280AAD8E002E5641 /* stylesheet.css */,
+				A5B62275280AAD8E002E5641 /* LabGrotesque-Regular.ttf */,
+				A5B62276280AAD8E002E5641 /* LabGrotesque-LightItalic.woff */,
+				A5B62277280AAD8E002E5641 /* LabGrotesque-Bold.woff */,
+				A5B62278280AAD8E002E5641 /* LabGrotesque-Medium.eot */,
+				A5B62279280AAD8E002E5641 /* LabGrotesque-MediumItalic.ttf */,
+				A5B6227A280AAD8E002E5641 /* LabGrotesque-Black.eot */,
+				A5B6227C280AAD8E002E5641 /* demo.html */,
+				A5B6227D280AAD8E002E5641 /* LabGrotesque-Light.woff */,
+				A5B6227E280AAD8E002E5641 /* LabGrotesque-Regular.eot */,
+				A5B6227B280AAD8E002E5641 /* LabGrotesque-Bold.ttf */,
+				A5B6227F280AAD8E002E5641 /* LabGrotesque-Medium.ttf */,
+				A5B62280280AAD8E002E5641 /* LabGrotesque-Black.ttf */,
+				A5B62281280AAD8E002E5641 /* LabGrotesque-Italic.woff */,
+				A5B62282280AAD8E002E5641 /* LabGrotesque-Bold.eot */,
+				A5B62283280AAD8E002E5641 /* LabGrotesque-Regular.woff */,
+				A5B62284280AAD8E002E5641 /* LabGrotesque-MediumItalic.eot */,
+			);
+			path = LabGrotesque;
+			sourceTree = "<group>";
+		};
+		A5BC33732801F145003517FB = {
+			isa = PBXGroup;
+			children = (
+				A5BC337E2801F145003517FB /* SpaceXRockets */,
+				A5BC337D2801F145003517FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5BC337D2801F145003517FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5BC337C2801F145003517FB /* SpaceXRockets.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5BC337E2801F145003517FB /* SpaceXRockets */ = {
+			isa = PBXGroup;
+			children = (
+				A5BC33CF28034D91003517FB /* Home */,
+				A5BC339A2801F258003517FB /* App */,
+				A5BC338D2801F153003517FB /* Networking */,
+				A5BC33832801F147003517FB /* Assets.xcassets */,
+				A5B62263280AAD8E002E5641 /* Fonts */,
+				A5BC33852801F147003517FB /* Preview Content */,
+				A5BC33A82801F3EF003517FB /* Endpoint.swift */,
+			);
+			path = SpaceXRockets;
+			sourceTree = "<group>";
+		};
+		A5BC33852801F147003517FB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A5BC33862801F147003517FB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A5BC338D2801F153003517FB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A5BC338E2801F16C003517FB /* Models */,
+				A5BC338F2801F17D003517FB /* Service.swift */,
+				A5BC33912801F198003517FB /* ServiceError.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A5BC338E2801F16C003517FB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5B6225628070EB7002E5641 /* ProjectModels */,
+				A5BC33AA280222E7003517FB /* LaunchModels */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A5BC339A2801F258003517FB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A5A19683280C94F400BC652C /* SpaceXRocketsApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A5BC33AA280222E7003517FB /* LaunchModels */ = {
+			isa = PBXGroup;
+			children = (
+				A5BC33942801F204003517FB /* LaunchesModel.swift */,
+				A5BC33962801F215003517FB /* LinkModel.swift */,
+				A5BC33982801F226003517FB /* PatchModel.swift */,
+			);
+			path = LaunchModels;
+			sourceTree = "<group>";
+		};
+		A5BC33CF28034D91003517FB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A5B6224E28070E07002E5641 /* ProjectLaunches */,
+				A5BC33E62804BA0A003517FB /* Project */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A5BC33E62804BA0A003517FB /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				A5BC33E72804BA20003517FB /* ProjectView.swift */,
+				A5BC33E92804BB86003517FB /* ProjectPresenter.swift */,
+				A5BC33EB2804BB99003517FB /* ProjectViewModel.swift */,
+				A5B6224C280600FD002E5641 /* ProjectCell.swift */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5BC337B2801F145003517FB /* SpaceXRockets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BC338A2801F147003517FB /* Build configuration list for PBXNativeTarget "SpaceXRockets" */;
+			buildPhases = (
+				A5BC33782801F145003517FB /* Sources */,
+				A5BC33792801F145003517FB /* Frameworks */,
+				A5BC337A2801F145003517FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceXRockets;
+			packageProductDependencies = (
+				A5BC33A32801F372003517FB /* Alamofire */,
+				A5BC33A62801F386003517FB /* Kingfisher */,
+			);
+			productName = SpaceXRockets;
+			productReference = A5BC337C2801F145003517FB /* SpaceXRockets.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5BC33742801F145003517FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					A5BC337B2801F145003517FB = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = A5BC33772801F145003517FB /* Build configuration list for PBXProject "SpaceXRockets" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5BC33732801F145003517FB;
+			packageReferences = (
+				A5BC33A22801F372003517FB /* XCRemoteSwiftPackageReference "Alamofire" */,
+				A5BC33A52801F386003517FB /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = A5BC337D2801F145003517FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5BC337B2801F145003517FB /* SpaceXRockets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5BC337A2801F145003517FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B6228B280AAD8E002E5641 /* LabGrotesque-BlackItalic.ttf in Resources */,
+				A5B62290280AAD8E002E5641 /* LabGrotesque-Black.woff in Resources */,
+				A5B62286280AAD8E002E5641 /* LabGrotesque-Medium.woff in Resources */,
+				A5BC33872801F147003517FB /* Preview Assets.xcassets in Resources */,
+				A5B62293280AAD8E002E5641 /* LabGrotesque-MediumItalic.woff in Resources */,
+				A5B622A4280AAD8E002E5641 /* LabGrotesque-MediumItalic.eot in Resources */,
+				A5B62289280AAD8E002E5641 /* LabGrotesque-Light.ttf in Resources */,
+				A5B62291280AAD8E002E5641 /* LabGrotesque-BlackItalic.eot in Resources */,
+				A5B622A2280AAD8E002E5641 /* LabGrotesque-Bold.eot in Resources */,
+				A5B62285280AAD8E002E5641 /* LabGrotesque-BlackItalic.woff in Resources */,
+				A5B6229B280AAD8E002E5641 /* LabGrotesque-Bold.ttf in Resources */,
+				A5B6228F280AAD8E002E5641 /* LabGrotesque-LightItalic.ttf in Resources */,
+				A5B6228C280AAD8E002E5641 /* LabGrotesque-BoldItalic.eot in Resources */,
+				A5B6229E280AAD8E002E5641 /* LabGrotesque-Regular.eot in Resources */,
+				A5B62299280AAD8E002E5641 /* LabGrotesque-MediumItalic.ttf in Resources */,
+				A5B6228A280AAD8E002E5641 /* LabGrotesque-Italic.ttf in Resources */,
+				A5B6229C280AAD8E002E5641 /* demo.html in Resources */,
+				A5B6228E280AAD8E002E5641 /* LabGrotesque-Light.eot in Resources */,
+				A5B62297280AAD8E002E5641 /* LabGrotesque-Bold.woff in Resources */,
+				A5B622A1280AAD8E002E5641 /* LabGrotesque-Italic.woff in Resources */,
+				A5BC33842801F147003517FB /* Assets.xcassets in Resources */,
+				A5B6229D280AAD8E002E5641 /* LabGrotesque-Light.woff in Resources */,
+				A5B6228D280AAD8E002E5641 /* LabGrotesque-BoldItalic.woff in Resources */,
+				A5B6229F280AAD8E002E5641 /* LabGrotesque-Medium.ttf in Resources */,
+				A5B62287280AAD8E002E5641 /* LabGrotesque-BoldItalic.ttf in Resources */,
+				A5B622A3280AAD8E002E5641 /* LabGrotesque-Regular.woff in Resources */,
+				A5B62295280AAD8E002E5641 /* LabGrotesque-Regular.ttf in Resources */,
+				A5B62292280AAD8E002E5641 /* LabGrotesque-Italic.eot in Resources */,
+				A5B622A0280AAD8E002E5641 /* LabGrotesque-Black.ttf in Resources */,
+				A5B62288280AAD8E002E5641 /* LabGrotesque-LightItalic.eot in Resources */,
+				A5B6229A280AAD8E002E5641 /* LabGrotesque-Black.eot in Resources */,
+				A5B62298280AAD8E002E5641 /* LabGrotesque-Medium.eot in Resources */,
+				A5B62296280AAD8E002E5641 /* LabGrotesque-LightItalic.woff in Resources */,
+				A5B62294280AAD8E002E5641 /* stylesheet.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5BC33782801F145003517FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BC33B12802249F003517FB /* HeightModel.swift in Sources */,
+				A5BC33B3280224E9003517FB /* MassModel.swift in Sources */,
+				A5B6224D280600FD002E5641 /* ProjectCell.swift in Sources */,
+				A5BC33EA2804BB86003517FB /* ProjectPresenter.swift in Sources */,
+				A5A19684280C94F400BC652C /* SpaceXRocketsApp.swift in Sources */,
+				A5BC33922801F198003517FB /* ServiceError.swift in Sources */,
+				A5BC339D2801F2A6003517FB /* LaunchesViewModel.swift in Sources */,
+				A5BC33B928022583003517FB /* SecondStageModel.swift in Sources */,
+				A5BC33C528022878003517FB /* PayloadWeightsModel.swift in Sources */,
+				A5BC339F2801F2B6003517FB /* LaunchesPresenter.swift in Sources */,
+				A5BC33E82804BA20003517FB /* ProjectView.swift in Sources */,
+				A5BC33AF280223C6003517FB /* RocketsModel.swift in Sources */,
+				A5BC33952801F205003517FB /* LaunchesModel.swift in Sources */,
+				A5BC33EC2804BB99003517FB /* ProjectViewModel.swift in Sources */,
+				A5BC33972801F215003517FB /* LinkModel.swift in Sources */,
+				A5B6225028070E35002E5641 /* ProjectLaunchesView.swift in Sources */,
+				A5BC33992801F226003517FB /* PatchModel.swift in Sources */,
+				A5BC33B72802255C003517FB /* FirstStageModel.swift in Sources */,
+				A5BC33A92801F3EF003517FB /* Endpoint.swift in Sources */,
+				A5BC33902801F17D003517FB /* Service.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A5BC33882801F147003517FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5BC33892801F147003517FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5BC338B2801F147003517FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "SpaceXRockets/Preview\\ Content SpaceXRockets/Fonts/LabGrotesque";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.SpaceXRockets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5BC338C2801F147003517FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "SpaceXRockets/Preview\\ Content SpaceXRockets/Fonts/LabGrotesque";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.SpaceXRockets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5BC33772801F145003517FB /* Build configuration list for PBXProject "SpaceXRockets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BC33882801F147003517FB /* Debug */,
+				A5BC33892801F147003517FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BC338A2801F147003517FB /* Build configuration list for PBXNativeTarget "SpaceXRockets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BC338B2801F147003517FB /* Debug */,
+				A5BC338C2801F147003517FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A5BC33A22801F372003517FB /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A5BC33A52801F386003517FB /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A5BC33A32801F372003517FB /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5BC33A22801F372003517FB /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		A5BC33A62801F386003517FB /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5BC33A52801F386003517FB /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A5BC33742801F145003517FB /* Project object */;
+}
