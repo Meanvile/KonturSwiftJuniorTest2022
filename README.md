@@ -1,0 +1,1 @@
+# KonturSwiftJuniorTest2022
